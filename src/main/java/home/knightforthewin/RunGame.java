@@ -16,7 +16,7 @@ import java.util.Scanner;
  */
 public class RunGame {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         KnightForTheWin knightForTheWin = new KnightForTheWin();
         Cell startingCell = processInput();
         Knight knight = new Knight(startingCell);
