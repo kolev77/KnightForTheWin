@@ -1,7 +1,9 @@
-package home.knightforthewin.ChessBoard.ChessPieces;
+package home.knightforthewin.models.chessPiece;
 
-import home.knightforthewin.ChessBoard.Cells.Cell;
-import home.knightforthewin.ChessBoard.Cells.VisitedCell;
+import home.knightforthewin.models.chessPiece.ChessPiece;
+import home.knightforthewin.models.chessPiece.Knight;
+import home.knightforthewin.models.cell.Cell;
+import home.knightforthewin.models.cell.VisitedCell;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

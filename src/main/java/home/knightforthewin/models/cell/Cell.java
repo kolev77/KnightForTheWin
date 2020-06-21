@@ -1,4 +1,4 @@
-package home.knightforthewin.ChessBoard.Cells;
+package home.knightforthewin.models.cell;
 
 /**
  * Cell is an entity that represents every square on the chess board. An object

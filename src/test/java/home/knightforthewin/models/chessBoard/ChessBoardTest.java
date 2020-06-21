@@ -1,5 +1,6 @@
-package home.knightforthewin.ChessBoard;
+package home.knightforthewin.models.chessBoard;
 
+import home.knightforthewin.models.chessBoard.ChessBoard;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

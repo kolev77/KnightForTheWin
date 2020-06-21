@@ -1,9 +1,9 @@
-package home.knightforthewin.modes;
+package home.knightforthewin.games;
 
-import home.knightforthewin.ChessBoard.Cells.Cell;
-import home.knightforthewin.ChessBoard.Cells.VisitedCell;
-import home.knightforthewin.ChessBoard.ChessBoard;
-import home.knightforthewin.ChessBoard.ChessPieces.Knight;
+import home.knightforthewin.models.cell.Cell;
+import home.knightforthewin.models.cell.VisitedCell;
+import home.knightforthewin.models.chessBoard.ChessBoard;
+import home.knightforthewin.models.chessPiece.Knight;
 
 /**
  * KnightForTheWin is a class that represents state and behavior of specific
@@ -37,7 +37,7 @@ public class KnightForTheWin {
      * print information about moves that were made, if the starting point of
      * the knight allows going to the target point.
      *
-     * @see home.knightforthewin.ChessBoard.ChessPieces.Knight
+     * @see home.knightforthewin.chessBoard.ChessPieces.Knight
      *
      * @param knight represents a Knight on the chessboard.
      */
@@ -103,7 +103,7 @@ public class KnightForTheWin {
      * state of piece (it`s starting point) and the default target is set.
      *
      * @see home.knightforthewin.modes.KnightForTheWin#validateKnight
-     * @see home.knightforthewin.ChessBoard.ChessPieces.Knight
+     * @see home.knightforthewin.chessBoard.ChessPieces.Knight
      *
      * @param knight represents knight on the chess board
      * @throws IllegalArgumentException

@@ -1,7 +1,7 @@
-package home.knightforthewin.ChessBoard.ChessPieces;
+package home.knightforthewin.models.chessPiece;
 
-import home.knightforthewin.ChessBoard.Cells.Cell;
-import home.knightforthewin.ChessBoard.Cells.VisitedCell;
+import home.knightforthewin.models.cell.Cell;
+import home.knightforthewin.models.cell.VisitedCell;
 import java.util.Queue;
 
 /**
@@ -15,8 +15,8 @@ import java.util.Queue;
  * Chess piece has current position (VisitedCell) and it has a number of moves
  * that were made to reach it.
  *
- * @see home.knightforthewin.ChessBoard.Cells.VisitedCell
- * @see home.knightforthewin.ChessBoard.Cells.VisitedCell
+ * @see home.knightforthewin.models.cell.VisitedCell
+ * @see home.knightforthewin.models.cell.VisitedCell
  *
  * States of piece are stored in a queue and they are used from algorithm to
  * find the way from starting position to target position.
@@ -28,14 +28,14 @@ public abstract class ChessPiece {
     /**
      * Represents starting cell of the chess piece.
      *
-     * @see home.knightforthewin.ChessBoard.Cells.Cell
+     * @see home.knightforthewin.models.cell.Cell
      */
     protected Cell startingCell;
 
     /**
      * Represents target cell of the chess piece.
      *
-     * @see home.knightforthewin.ChessBoard.Cells.Cell
+     * @see home.knightforthewin.models.cell.Cell
      */
     protected Cell targetCell;
 
@@ -43,7 +43,7 @@ public abstract class ChessPiece {
      * Represents current cell of the chess piece. The moves that are made are
      * available in class VisitedCell.
      *
-     * @see home.knightforthewin.ChessBoard.Cells.VisitedCell
+     * @see home.knightforthewin.models.cell.VisitedCell
      */
     protected VisitedCell currentCell;
 
@@ -53,7 +53,7 @@ public abstract class ChessPiece {
      * They are used from chessboard`s algorithm to find the way from starting
      * position to target position.
      *
-     * @see home.knightforthewin.ChessBoard.Cells.Cell
+     * @see home.knightforthewin.models.cell.Cell
      */
     protected Queue<VisitedCell> statesOfPiece;
 

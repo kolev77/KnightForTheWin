@@ -1,8 +1,8 @@
 package home.knightforthewin;
 
-import home.knightforthewin.ChessBoard.Cells.Cell;
-import home.knightforthewin.ChessBoard.ChessPieces.Knight;
-import home.knightforthewin.modes.KnightForTheWin;
+import home.knightforthewin.models.cell.Cell;
+import home.knightforthewin.models.chessPiece.Knight;
+import home.knightforthewin.games.KnightForTheWin;
 import java.util.Scanner;
 
 /**

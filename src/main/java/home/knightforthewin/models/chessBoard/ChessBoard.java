@@ -1,4 +1,4 @@
-package home.knightforthewin.ChessBoard;
+package home.knightforthewin.models.chessBoard;
 
 /**
  * ChessBoard is a class that represents state and behavior of chess board in

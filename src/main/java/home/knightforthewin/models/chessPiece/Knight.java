@@ -1,6 +1,6 @@
-package home.knightforthewin.ChessBoard.ChessPieces;
+package home.knightforthewin.models.chessPiece;
 
-import home.knightforthewin.ChessBoard.Cells.Cell;
+import home.knightforthewin.models.cell.Cell;
 import java.util.concurrent.LinkedBlockingQueue;
 
 /**
@@ -18,7 +18,7 @@ import java.util.concurrent.LinkedBlockingQueue;
  * processing.
  *
  * @see home.knightforthewin.Chess.ChessPieces.ChessPiece#statesOfPiece
- * @see home.knightforthewin.ChessBoard.ChessPieces.ChessPiece
+ * @see home.knightforthewin.chessBoard.ChessPieces.ChessPiece
  * @author Kolev
  */
 public class Knight extends ChessPiece {

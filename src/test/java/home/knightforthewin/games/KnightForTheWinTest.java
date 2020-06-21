@@ -1,7 +1,8 @@
-package home.knightforthewin.modes;
+package home.knightforthewin.games;
 
-import home.knightforthewin.ChessBoard.Cells.Cell;
-import home.knightforthewin.ChessBoard.ChessPieces.Knight;
+import home.knightforthewin.games.KnightForTheWin;
+import home.knightforthewin.models.cell.Cell;
+import home.knightforthewin.models.chessPiece.Knight;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

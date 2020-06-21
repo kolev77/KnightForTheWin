@@ -1,4 +1,6 @@
-package home.knightforthewin.ChessBoard.Cells;
+package home.knightforthewin.models.cell;
+
+import home.knightforthewin.models.cell.Cell;
 
 /**
  * VisitedCell is an entity that represents every visited square on the chess
